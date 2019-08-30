@@ -1,0 +1,36 @@
+body{
+  background-image: url('.\Assets\BL-Background.jpg')
+}
+
+.App {
+  text-align: center;
+}
+
+
+/* Header css */
+
+.hdr-img-ctr{
+  height: 15.4vh;
+  background: black;
+}
+
+.blk-banner{
+  height: 80%;
+  margin-top: 10px;
+}
+
+.sidebar{
+  border: 1px solid black;
+  display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 10%;
+    height: 80vh;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
+
+
