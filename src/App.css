@@ -12,6 +12,7 @@ body{
 .hdr-img-ctr{
   height: 15.4vh;
   background: black;
+
 }
 
 .blk-banner{
@@ -20,16 +21,41 @@ body{
 }
 
 .sidebar{
-  border: 1px solid black;
   display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     width: 10%;
     height: 80vh;
-    margin-left: 10px;
+    margin-left: 15px;
     padding: 10px;
+    position: fixed;
 }
 
+.serv-ctr{
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 5px;
+  background: #ffffff75;
+  margin-top: 2%;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  padding: 10px;
+  height: 75vh;
+  overflow: auto;
+}
+
+#nav-btn{
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  background: #312F30;
+  box-shadow: -2px 2px 2px 1px #716e6e;
+}
+
+ul{
+  list-style: none;
+}
 
 
 

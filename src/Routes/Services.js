@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 class Services extends Component {
   state = {  }
   render() { 
     return ( 
-      <div>
+      <div className='serv-ctr'>
         <div className='serv-over'>
           <h1>Services Overview</h1>
           <p>
             Whether you have a new idea, a one off, or need to expand your production; 
             Our team at BlackLabelMetal is ready to take care of your needs. 
             For information on pricing give us a call, send us an email, or stop in today. 
-
+            <p/>
             When you've been in business as long as we have and faced technology's increasingly rapid developments, 
             you learn a few things. Or, in our case, more than a few. We not only have simple, 
             ready-to-implement solutions for almost every problem, we have the patents for them, too. 
@@ -54,6 +54,19 @@ class Services extends Component {
               we offer state of the art powder coating ready to meet our clients needs​
               </p>
             </li>
+          </ul>
+          <ul className='serv-list'>
+            <h1>Services List</h1>
+            <li>Steel Welding</li>
+            <li>Stainless Steel Welding</li>
+            <li>Aluminum Welding</li>
+            <li>3D Design</li>
+            <li>2D Flat Pattern Generating</li>
+            <li>Complex Forming</li>
+            <li>Prototyping</li>
+            <li>High Volume Production</li>
+            <li>Powder Coating</li>
+            <li>Assembly & Packaging</li>
           </ul>
         </div>
       </div>
