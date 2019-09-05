@@ -12,10 +12,12 @@ class Nav extends Component {
       <Link to='/services'>
       <button type='button' id='nav-btn' className='btn-sv'>Services</button>
       </Link>
-      <button type='button' id='nav-btn' className='btn-pr' onClick={'do something'}>Portfolio</button>
-      <button type='button' id='nav-btn' className='btn-ab' onClick={'do something'}>About Us</button>
-      <button type='button' id='nav-btn' className='btn-tm' onClick={'do something'}>Team</button>
-      <button type='button' id='nav-btn' className='btn-ct' onClick={'send to contacts'}>Contact</button>
+      <button type='button' id='nav-btn' className='btn-pr'>Portfolio</button>
+      <button type='button' id='nav-btn' className='btn-ab'>About Us</button>
+      <button type='button' id='nav-btn' className='btn-tm'>Team</button>
+      <Link to='/contact'>
+      <button type='button' id='nav-btn' className='btn-ct'>Contact</button>
+      </Link>
       </section>
      );
   }

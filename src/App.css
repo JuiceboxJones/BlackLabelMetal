@@ -53,9 +53,28 @@ body{
   box-shadow: -2px 2px 2px 1px #716e6e;
 }
 
+.map-comp{
+  height: 40vh;
+  width: 40vw;
+  margin: 0 auto;
+
+}
+
+.overlays{
+  border: 5px solid white;
+  border-radius: 4px;
+
+}
+
+.gmaps-loc{
+  margin-top: 8%;
+
+}
+
 ul{
   list-style: none;
 }
+
 
 
 
