@@ -12,8 +12,7 @@ class Mapbox extends Component {
       latitude: 45.556651,
       longitude: -122.916754,
       zoom: 17
-    },
-    searchResultLayer: null
+    }
    }
 
    mapRef = React.createRef()
@@ -24,22 +23,11 @@ class Mapbox extends Component {
     })
   }
 
-  handleOnResult = event => {
-    this.setState({
-      searchResultLayer: new GeoJsonLayer({
-        id: "search-result",
-        data: event.result.geometry,
-        getFillColor: [255, 0, 0, 128],
-        getRadius: 1000,
-        pointRadiusMinPixels: 10,
-        pointRadiusMaxPixels: 10
-      })
-    })
-  }
+
    
 
   render() { 
-    const {viewport, searchResultLayer} = this.state
+    const {viewport} = this.state
     
     return ( 
       <div className='map-comp'>
@@ -47,13 +35,13 @@ class Mapbox extends Component {
             ref={this.mapRef}
             {...viewport}
             mapStyle="mapbox://styles/anonjuice/ck07526jq00301cmk89tty6we"
-            width="80%"
-            height="80%"
+            width="100%"
+            height="100%"
             onViewportChange={this.handleViewportChange}
             mapboxApiAccessToken={token}
             >
             </MapGL>
-            <DeckGL {...viewport} layers={[searchResultLayer]} />
+            <DeckGL {...viewport}  />
         </div>
       )
     }

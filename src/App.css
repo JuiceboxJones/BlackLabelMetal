@@ -20,6 +20,9 @@ body{
   margin-top: 10px;
 }
 
+
+/* Nav css */
+
 .sidebar{
   display: flex;
     justify-content: space-evenly;
@@ -29,18 +32,6 @@ body{
     margin-left: 15px;
     padding: 10px;
     position: fixed;
-}
-
-.serv-ctr{
-  margin: 0 auto;
-  width: 60%;
-  border-radius: 5px;
-  background: #ffffff75;
-  margin-top: 2%;
-  box-shadow: -1px 1px 6px 1px #4e4c4c;
-  padding: 10px;
-  height: 75vh;
-  overflow: auto;
 }
 
 #nav-btn{
@@ -53,27 +44,92 @@ body{
   box-shadow: -2px 2px 2px 1px #716e6e;
 }
 
+
+/* Services css */
+
+.serv-ctr{
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 5px;
+  background: #ffffff75;
+  margin-top: 2%;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  padding: 10px;
+  height: 75vh;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff00; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgba(5, 5, 5, 0);
+  border-radius: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(253, 253, 253, 0); 
+}
+
+/* Contact css */
+
 .map-comp{
-  height: 40vh;
-  width: 40vw;
+  height: 30vh;
+  width: 30vw;
   margin: 0 auto;
 
 }
 
-.overlays{
-  border: 5px solid white;
-  border-radius: 4px;
+
+.contact-ctr{
+  border: 1px solid;
+    width: 65%;
+    margin: 0 auto;
+    height: 75vh;
+    overflow: auto;
+    margin-top: 3%;
+}
+
+.maps-ctr{
+  margin-top: 1%;
 
 }
 
-.gmaps-loc{
-  margin-top: 8%;
+.map-subctr{
+  width: 65%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  background: #ffffff75;
+}
 
+Iframe{
+  margin: 0 auto;
+}
+
+.fb-ctr{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  background: #ffffff75;
 }
 
 ul{
   list-style: none;
 }
+
+
 
 
 
