@@ -88,7 +88,6 @@ body{
 
 
 .contact-ctr{
-  border: 1px solid;
     width: 65%;
     margin: 0 auto;
     height: 75vh;
@@ -129,6 +128,14 @@ ul{
   list-style: none;
 }
 
+/* team css */
+
+.emp-ctr{
+  width: 75%;
+  margin: 0 auto;
+  height: 80vh;
+  overflow: auto;
+}
 
 
 
