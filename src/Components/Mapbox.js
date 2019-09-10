@@ -41,7 +41,6 @@ class Mapbox extends Component {
             mapboxApiAccessToken={token}
             >
             </MapGL>
-            <DeckGL {...viewport}  />
         </div>
       )
     }
