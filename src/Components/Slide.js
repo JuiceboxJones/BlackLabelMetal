@@ -1,21 +1,25 @@
 import React from 'react';
 import { Zoom } from 'react-slideshow-image';
+import './Slide.css'
+
+
  
 const images = [
-  'images/slide_2.jpg',
-  'images/slide_3.jpg',
-  'images/slide_4.jpg',
-  'images/slide_5.jpg',
-  'images/slide_6.jpg',
-  'images/slide_7.jpg'
+  require('../Assets/Slides/blmSlide1.png'),
+  require('../Assets/Slides/blmSlide2.png'),
+  require('../Assets/Slides/blmSlide3.png'),
+  require('../Assets/Slides/blmSlide4.png'),
+  require('../Assets/Slides/blmSlide5.png'),
+  require('../Assets/Slides/blmSlide6.png'),
+  require('../Assets/Slides/blmSlide7.png'),
 ];
  
 const zoomOutProperties = {
   duration: 5000,
-  transitionDuration: 500,
+  transitionDuration: 1000,
   infinite: true,
-  indicators: true,
-  scale: 0.4,
+  indicators: false,
+  scale: 1.012,
   arrows: true
 }
  
@@ -24,7 +28,11 @@ const Slideshow = () => {
       <div className="slide-container">
         <Zoom {...zoomOutProperties}>
           {
-            images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+            images.map((pic, index) => 
+            <img key={index} 
+            style={{width: "100%"}} 
+            src={pic}
+            alt='slidePic' />)
           }
         </Zoom>
       </div>

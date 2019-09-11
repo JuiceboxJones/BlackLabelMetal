@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 class Nav extends Component {
   state = {  }
   render() { 
+
     return ( 
       <section className='sidebar'>
       <Link to='/'>
@@ -27,8 +28,9 @@ class Nav extends Component {
       <Link to='/contact'>
       <button type='button' id='nav-btn' className='btn-ct'>Contact</button>
       </Link>
-
+      
       </section>
+      
      );
   }
 }
