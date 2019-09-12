@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { createRequireFromPath } from 'module';
 
 class About extends Component {
   state = {  }
@@ -24,6 +25,8 @@ class About extends Component {
             international leaders looking to stay on top to smaller local customers looking to 
             complete a project that is no less ambitious. We show them the same level of respect 
             and attention because in the end we are pursuing the same thing; ambition and excellence of craft in the guise of metal. 
+            <p/>
+            <img id='abt-cs' src={require('../Assets/Kevin&Kathy.jpg')} alt='cool shit'/>
             <p/>
             Welcome to BlackLabelMetal.    Cool shit gets made here.
             </p>

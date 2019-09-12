@@ -138,6 +138,64 @@ ul{
   height: 80vh;
   overflow: auto;
 }
+.emp-ctr li{
+  list-style: none;
+}
+
+.tm-owner{
+  width: 20%;
+  
+}
+
+.emp-owner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.tm-manager{
+  width: 40%;
+}
+
+.emp-mgr{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.tm-employee{
+  width: 20%;
+}
+
+.emp-emp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* about css */
+
+.about-ctr{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.about-center{
+  width: 60%;
+  margin: 0 auto;
+  background: #ffffff75;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  padding: 1px 15px 5px 15px;
+}
+
+#abt-cs{
+  filter: grayscale(0.7);
+  border-radius: 5px;
+}
+
 
 
 
