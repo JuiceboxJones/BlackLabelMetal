@@ -39,12 +39,24 @@ body{
 #nav-btn{
   width: 100%;
   border: none;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 5px;
   color: white;
   background: #312F30;
   box-shadow: -2px 2px 2px 1px #716e6e;
+  transition: 0.5s;
+  cursor: pointer;
 }
+
+
+/* --------------------------------------------------------------- */
+
+#nav-btn:hover{
+  background: rgb(29, 27, 28)
+}
+
+/* --------------------------------------------------------------- */
+
 
 
 /* Services css */
@@ -143,35 +155,66 @@ ul{
 }
 
 .tm-owner{
-  width: 20%;
+  width: 30%;
   
+}
+
+.tm-owner li {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #ffffff75;
+  height: 100%;
 }
 
 .emp-owner{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 2%;
   
 }
 
 .tm-manager{
-  width: 40%;
+  width: 30%;
+}
+
+.tm-manager li {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #ffffff75;
 }
 
 .emp-mgr{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 2%;
 }
 
 .tm-employee{
   width: 20%;
 }
 
+.tm-employee li{
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #ffffff75;
+  height: 95%;
+  width: 100%;
+}
+
 .emp-emp{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.emp-ctr li{
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
 }
 
 /* about css */

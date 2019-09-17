@@ -18,7 +18,7 @@ class Contact extends Component {
                 Hillsboro, Oregon 97124</p>
               <p>Phone: <a href='tel:1-503-530-8883'>503-530-8883</a> 
                 <br/>
-                Email: <a href='mailto:Info@Blacklabelmetal.com'>Info@Blacklabelmetal.com</a></p>
+                Email: <a href='mailto:kevin@Blacklabelmetal.com'>Info@Blacklabelmetal.com</a></p>
           </div>
         </div>
         <div className='soc-med'>
