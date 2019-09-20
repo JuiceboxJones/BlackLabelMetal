@@ -1,0 +1,26 @@
+/* Header css */
+
+.hdr-img-ctr{
+  height: 15.4vh;
+
+  background: black;
+
+}
+
+.blk-banner{
+  height: 80%;
+  margin-top: 10px;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .hdr-img-ctr{
+    height: 10%;
+  }
+
+  .blk-banner{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}

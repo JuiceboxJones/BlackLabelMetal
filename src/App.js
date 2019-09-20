@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Nav/>
       <Switch>
         <Route exact path='/' component={Main}/>
         <Route path='/services' component={Services}/>
@@ -29,6 +28,7 @@ function App() {
         <Route path='/team' component={Team}/>
         <Route path='/contact' component={Contact}/>
       </Switch>
+      <Nav/>
     </div>
   );
 }
