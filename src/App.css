@@ -1,4 +1,6 @@
-
+html, body{
+  height: 100%;
+}
 
 body{
   background-image: url('.\Assets\BL-Background.jpg');
