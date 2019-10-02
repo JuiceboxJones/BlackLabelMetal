@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { createRequireFromPath } from 'module';
+import './About.css'
 
 class About extends Component {
   state = {  }

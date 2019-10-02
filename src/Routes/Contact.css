@@ -1,0 +1,75 @@
+/* Contact css */
+
+.map-comp{
+  height: 30vh;
+  width: 30vw;
+  margin: 0 auto;
+
+}
+
+
+.contact-ctr{
+    width: 65%;
+    margin: 0 auto;
+    height: 75vh;
+    overflow: auto;
+    margin-top: 3%;
+}
+
+.maps-ctr{
+  margin-top: 1%;
+
+}
+
+.map-subctr{
+  width: 65%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  background: #ffffff75;
+}
+
+Iframe{
+  margin: 0 auto;
+}
+
+.fb-ctr{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  background: #ffffff75;
+}
+
+ul{
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .contact-ctr{
+    height: fit-content;
+    width: 100%;
+  }
+
+  .map-subctr{
+    width: 90%;
+  }
+
+  .fb-ctr{
+    width: 90%;
+  }
+
+  Iframe{
+    width: 100%;
+  }
+
+  .map-comp{
+    width: 100%;
+  }
+}

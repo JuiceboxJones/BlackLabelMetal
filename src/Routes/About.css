@@ -1,0 +1,42 @@
+/* about css */
+
+.about-ctr{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.about-center{
+  width: 60%;
+  margin: 0 auto;
+  background: #ffffff75;
+  border-radius: 5px;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  padding: 1px 15px 5px 15px;
+}
+
+#abt-cs{
+  filter: grayscale(0.7);
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .about-ctr{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-ctr{
+  width: 99%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  }
+  .about-center {
+    width: 90%;
+  }
+
+}

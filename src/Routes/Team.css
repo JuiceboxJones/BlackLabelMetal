@@ -1,0 +1,75 @@
+/* team css */
+
+.emp-ctr{
+  width: 75%;
+  margin: 0 auto;
+  height: 80vh;
+  overflow: auto;
+}
+.emp-ctr li{
+  list-style: none;
+}
+
+.tm-owner{
+  width: 30%;
+  
+}
+
+.tm-owner li {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #ffffff75;
+  height: 100%;
+}
+
+.emp-owner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  
+}
+
+.tm-manager{
+  width: 30%;
+}
+
+.tm-manager li {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #ffffff75;
+}
+
+.emp-mgr{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.tm-employee{
+  width: 20%;
+}
+
+.tm-employee li{
+  margin: 4px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #ffffff75;
+  height: 95%;
+  width: 100%;
+}
+
+.emp-emp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.emp-ctr li{
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+}
+

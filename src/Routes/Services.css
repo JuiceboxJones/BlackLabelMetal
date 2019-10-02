@@ -1,0 +1,44 @@
+/* Services css */
+
+.serv-ctr{
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 5px;
+  background: #ffffff75;
+  margin-top: 2%;
+  box-shadow: -1px 1px 6px 1px #4e4c4c;
+  padding: 10px;
+  height: 75vh;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff00; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgba(5, 5, 5, 0);
+  border-radius: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(253, 253, 253, 0); 
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .serv-ctr{
+    width: 90%;
+  }
+
+  .serv-off ul{
+    text-align: center;
+    padding: 2px;
+  }
+
+}
