@@ -25,6 +25,7 @@
 
 .GalleryCtr{
   margin-top: 7%;
+  height: 25vh;
 }
 
 @media only screen and (max-width: 1000px) {
