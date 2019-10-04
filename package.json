@@ -6,6 +6,8 @@
     "deck.gl": "^7.2.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-gesture-gallery": "^1.1.0",
+    "react-gesture-responder": "^2.1.0",
     "react-iframe": "^1.8.0",
     "react-map-gl": "^5.0.10",
     "react-map-gl-geocoder": "^2.0.11",

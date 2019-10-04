@@ -1,26 +1,38 @@
-.slide-container {
+/* .slide-container {
   width: 60%;
   margin: 0 auto; 
   margin-top: 4%;
   margin-left: 20%;
   box-shadow: -1px -1px 7px 0px #00000078;
-}
-
+} */
+/* 
 .react-slideshow-zoom-wrapper{
   width: 100% !important;
+  height: 100% !important;
 }
 
 .react-slideshow-container{
   width: 100%
+} */
+
+.Gallery__NavigationArrow{
+  display: none;
 }
 
+.Gallery__Indicators{
+  display: none !important;
+}
+
+.GalleryCtr{
+  margin-top: 7%;
+}
 
 @media only screen and (max-width: 1000px) {
  
-  .slide-container{
+  /* .slide-container{
     width: 90%;
     height: auto;
     margin-left: 5%;
-  }
+  } */
 
 }

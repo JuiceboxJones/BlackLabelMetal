@@ -13,6 +13,15 @@ body{
   background-size: cover; 
 }
 
+#root{
+  width: 100%;
+}
+
+.slide-pos{
+  width: 57%;
+  margin: 0 auto;
+}
+
 .App {
   text-align: center;
 }
@@ -57,6 +66,10 @@ body{
 
   #nav-btn{
     margin-bottom: 5%;
+  }
+
+  .slide-pos{
+    width: 90%;
   }
 
 }
