@@ -1,11 +1,11 @@
-html, body{
+/* html, body{
   height: 100%;
-}
+} */
 
 body{
   background-image: url('.\Assets\BL-Background.jpg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-attachment: fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
