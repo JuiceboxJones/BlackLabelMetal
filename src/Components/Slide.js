@@ -38,8 +38,8 @@ function Slideshow() {
           setIndex(i);
         }}
       >
-        {images.map(image => (
-          <GalleryImage objectFit="contain" src={image} />
+        {images.map((image, index) => (
+          <GalleryImage key={index} objectFit="contain" src={image} />
         ))}
       </Gallery>
     </div>
