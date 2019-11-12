@@ -23,7 +23,9 @@ class Nav extends Component {
       <button type='button' id='nav-btn' className='btn-sv'>Services</button>
       </Link>
 
+      <Link to='/portfolio'>
       <button type='button' id='nav-btn' className='btn-pr'>Portfolio</button>
+      </Link>
 
       <Link to='/contact'>
       <button type='button' id='nav-btn' className='btn-ct'>Contact</button>

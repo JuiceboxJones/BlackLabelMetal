@@ -9,6 +9,7 @@ import Team from './Routes/Team';
 import Contact from './Routes/Contact';
 import About from './Routes/About';
 import Footer from './Components/Footer';
+import Portfolio from './Routes/Portfolio';
 
 
 //portfolio will display all photos, when photo is clicked, it will be displayed as a modal
@@ -24,7 +25,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Main}/>
         <Route path='/services' component={Services}/>
-        <Route path='/portfolio' component={'Portfolio'}/>
+        <Route path='/portfolio' component={Portfolio}/>
         <Route path='/about' component={About}/>
         <Route path='/team' component={Team}/>
         <Route path='/contact' component={Contact}/>
