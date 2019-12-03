@@ -17,11 +17,9 @@ class Contact extends Component {
               BLACK LABEL METAL
               <br />
               <a href="https://maps.google.com/?q=5070+NE+59th+Ave+Ste+112,+Hillsboro,+OR+97124">
-                <a href="https://maps.apple.com/maps?q=5070+NE+59th+Ave+Ste+112,+Hillsboro,+OR+97124">
                   5070 NE 59th Ave #112
                   <br />
                   Hillsboro, Oregon 97124
-                </a>
               </a>
             </p>
             <p>

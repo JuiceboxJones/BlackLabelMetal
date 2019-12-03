@@ -8,7 +8,7 @@ class About extends Component {
       <div className='about-ctr'>
         <div className='about-center'>
           <h1 className='welcome-hdr'>Welcome</h1>
-          <p>
+          
             There are a lot of ways to describe what we do but the truth is, 
             we simply specialize in getting the job done.  For us, that means delivering, 
             every time, high quality products on time and on budget. Without variation. 
@@ -29,7 +29,7 @@ class About extends Component {
             <img id='abt-cs' src={require('../Assets/Kevin&Kathy.jpg')} alt='cool shit'/>
             <p/>
             Welcome to BlackLabelMetal.    Cool shit gets made here.
-            </p>
+            
           </div>
       </div>
      );

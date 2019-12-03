@@ -12,7 +12,7 @@ class Services extends Component {
             Whether you have a new idea, a one off, or need to expand your production; 
             Our team at BlackLabelMetal is ready to take care of your needs. 
             For information on pricing give us a call, send us an email, or stop in today. 
-            <p/>
+            <br/>
             When you've been in business as long as we have and faced technology's increasingly rapid developments, 
             you learn a few things. Or, in our case, more than a few. We not only have simple, 
             ready-to-implement solutions for almost every problem, we have the patents for them, too. 

@@ -19,6 +19,8 @@ const employee = (emp) =>
 
 class TeamComp extends Component {
 
+//Fix keys in map functions. Right now the div needs to be placed over the list key which is illegal.
+
   handleOwners = () => {
     return Team.map((emp, index) => {
       if(emp.id === 1){
